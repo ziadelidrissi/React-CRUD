@@ -3,6 +3,9 @@ import HomePage from "./pages/HomePage"
 import CreatePage from "./pages/CreatePage"
 import EditPage from "./pages/EditPage"
 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
   return (
     <div>
@@ -22,6 +25,7 @@ function App() {
         </Routes>
       </div>
 
+      <ToastContainer/>
       
     </div>
   )
